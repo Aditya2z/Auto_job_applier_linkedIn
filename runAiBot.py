@@ -475,6 +475,10 @@ def answer_questions(modal: WebElement, questions_list: set, work_location: str,
                     answer = disability_status
                 elif 'proficiency' in label: 
                     answer = 'Professional'
+                elif 'experience' in label and ('month' in label or 'months' in label):
+                    answer = additional_experience_months
+                elif 'experience' in label and ('year' in label or 'years' in label):
+                    answer = years_of_experience
                 # Add location handling
                 elif any(loc_word in label for loc_word in ['location', 'city', 'state', 'country']):
                     if 'country' in label:

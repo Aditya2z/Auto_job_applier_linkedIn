@@ -85,6 +85,7 @@ def validate_questions() -> None | ValueError | TypeError:
 
     check_string(default_resume_path, "default_resume_path")
     check_string(years_of_experience, "years_of_experience")
+    check_string(additional_experience_months, "additional_experience_months")
     check_string(require_visa, "require_visa", ["Yes", "No"])
     check_string(website, "website")
     check_string(linkedIn, "linkedIn")

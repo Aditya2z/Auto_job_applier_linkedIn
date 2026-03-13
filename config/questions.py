@@ -26,6 +26,9 @@ default_resume_path = "all resumes/default/resume.pdf"      # (In Development)
 # What do you want to answer for questions that ask about years of experience you have, this is different from current_experience? 
 years_of_experience = "2"          # A number in quotes Eg: "0","1","2","3","4", etc.
 
+# What do you want to answer for questions that ask about additional experience in months?
+additional_experience_months = "11" # A number in quotes Eg: "0","1","2","3","4", etc.
+
 # Do you need visa sponsorship now or in future?
 require_visa = "No"               # "Yes" or "No"
 
